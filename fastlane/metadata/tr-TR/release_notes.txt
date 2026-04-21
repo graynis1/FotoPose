@@ -1,0 +1,4 @@
+• Tam Türkçe yerelleştirme — tüm uygulama, AI tarafından üretilen poz adları ve bildirimler.
+• Sistem dilini dikkate alan daha akıllı cihaz içi AI yönergeleri.
+• Paywall, Kütüphane, Poz Detayları ve Ayarlar'da cilalar.
+• Altın saat bildirimleri ve izin akışlarında kararlılık iyileştirmeleri.

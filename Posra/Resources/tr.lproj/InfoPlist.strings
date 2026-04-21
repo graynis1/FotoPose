@@ -1,0 +1,4 @@
+"CFBundleDisplayName" = "FotoPose";
+"NSCameraUsageDescription" = "FotoPose, aydınlatmayı analiz etmek ve gerçek zamanlı poz önermek için kameranızı kullanır. Fotoğraflar asla yüklenmez.";
+"NSLocationWhenInUseUsageDescription" = "FotoPose, daha iyi fotoğraf önerileri için altın saat zamanlamasını hesaplamak üzere konumunuzu kullanır.";
+"NSPhotoLibraryAddUsageDescription" = "FotoPose, çektiğiniz fotoğrafları fotoğraf kitaplığınıza kaydeder.";

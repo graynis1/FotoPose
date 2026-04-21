@@ -1,0 +1,256 @@
+/* =========================================================
+   FotoPose — English (base) localization
+   Keys match the English source string (SwiftUI
+   LocalizedStringKey convention) so Text(...) literals
+   auto-localize without code changes at the call site.
+   ========================================================= */
+
+/* MARK: - Onboarding */
+
+"Skip" = "Skip";
+"Continue" = "Continue";
+"Get Started" = "Get Started";
+
+"01 · Point" = "01 · Point";
+"02 · Follow" = "02 · Follow";
+"03 · Capture" = "03 · Capture";
+
+"Any scene.\nInstant pose ideas." = "Any scene.\nInstant pose ideas.";
+"Open the camera. Our on-device AI reads the light, location, and framing — and serves pose ideas that actually fit." = "Open the camera. Our on-device AI reads the light, location, and framing — and serves pose ideas that actually fit.";
+"A live guide,\ndrawn on you." = "A live guide,\ndrawn on you.";
+"Real-time body tracking overlays the target pose on screen. Match it, and we capture automatically." = "Real-time body tracking overlays the target pose on screen. Match it, and we capture automatically.";
+"Shots worth\nposting. Every time." = "Shots worth\nposting. Every time.";
+"Built by portrait photographers. 200+ poses, coaching that adapts to your body, and zero cloud uploads — ever." = "Built by portrait photographers. 200+ poses, coaching that adapts to your body, and zero cloud uploads — ever.";
+
+/* MARK: - Paywall */
+
+"Restore" = "Restore";
+"FOTOPOSE PRO" = "FOTOPOSE PRO";
+"240,000+ " = "240,000+ ";
+"photographers" = "photographers";
+"4.9 · App Store" = "4.9 · App Store";
+
+"Shoot like\nyou mean it." = "Shoot like\nyou mean it.";
+"240+ editorial poses, live AR guidance, and coaching that adapts to your body. No ads. No cloud." = "240+ editorial poses, live AR guidance, and coaching that adapts to your body. No ads. No cloud.";
+
+"Unlimited AI pose suggestions" = "Unlimited AI pose suggestions";
+"Live environment + body-aware recommendations, any lighting." = "Live environment + body-aware recommendations, any lighting.";
+"Full pose library · 240+ poses" = "Full pose library · 240+ poses";
+"Editorial, couple, wedding, street & group modes." = "Editorial, couple, wedding, street & group modes.";
+"Live AR pose overlay" = "Live AR pose overlay";
+"Match target poses in real time with body tracking." = "Match target poses in real time with body tracking.";
+"100% on-device privacy" = "100% on-device privacy";
+"Nothing leaves your phone. Not even anonymised." = "Nothing leaves your phone. Not even anonymised.";
+
+"BEST VALUE" = "BEST VALUE";
+"Best Value" = "Best Value";
+"Start 1-Day Free Trial" = "Start 1-Day Free Trial";
+
+"paywall.cta.subtitle.noTrial" = "%1$@/%2$@ after trial · Cancel anytime";
+"paywall.cta.subtitle.withTrial" = "%1$@/%2$@ after trial · Cancel anytime in Settings";
+
+"Terms" = "Terms";
+"Privacy" = "Privacy";
+
+"Weekly" = "Weekly";
+"Monthly" = "Monthly";
+"Yearly" = "Yearly";
+"1-day trial" = "1-day trial";
+"After trial" = "After trial";
+"Cancel anytime" = "Cancel anytime";
+"Save 68%" = "Save 68%";
+
+"unit.day" = "day";
+"unit.week" = "wk";
+"unit.month" = "mo";
+"unit.year" = "yr";
+
+/* MARK: - Camera coaching */
+
+"Point at a subject to begin" = "Point at a subject to begin";
+"Perfect — hold it right there" = "Perfect — hold it right there";
+"Almost there — match the guide" = "Almost there — match the guide";
+"Step closer — frame your subject" = "Step closer — frame your subject";
+"Tilt your chin slightly up — match the guide" = "Tilt your chin slightly up — match the guide";
+"Hold the pose — match the skeleton" = "Hold the pose — match the skeleton";
+"Looking for your subject…" = "Looking for your subject…";
+
+"VIDEO" = "VIDEO";
+"PHOTO" = "PHOTO";
+"PORTRAIT" = "PORTRAIT";
+
+"Perfect!" = "Perfect!";
+
+"Camera access needed" = "Camera access needed";
+"Enable camera permission in Settings to start using FotoPose." = "Enable camera permission in Settings to start using FotoPose.";
+"Open Settings" = "Open Settings";
+
+/* MARK: - Pose cards */
+
+"SUGGESTED POSES" = "SUGGESTED POSES";
+"See all" = "See all";
+"Upgrade to iPhone 15 Pro for AI-powered suggestions" = "Upgrade to iPhone 15 Pro for AI-powered suggestions";
+
+/* MARK: - Pose detail */
+
+"POSE DETAILS" = "POSE DETAILS";
+"Pro tips" = "Pro tips";
+"Pro Tips" = "Pro Tips";
+"Similar poses" = "Similar poses";
+"Curated template" = "Curated template";
+"AI-generated" = "AI-generated";
+"PRO" = "PRO";
+"Solo" = "Solo";
+"Couple" = "Couple";
+"Group" = "Group";
+"Your lighting is a match" = "Your lighting is a match";
+"Lighting tip" = "Lighting tip";
+"Flexible — works in most lighting" = "Flexible — works in most lighting";
+"Use This Pose" = "Use This Pose";
+
+"detail.matchFormat" = "%d%% match";
+"detail.lightingDetected" = "%1$@ detected · %2$d%% confidence";
+"detail.lightingWorksBest" = "Works best in %@";
+"detail.tipFallback" = "Tip %d";
+
+/* MARK: - Library */
+
+"Library" = "Library";
+"Generated for you · on-device AI" = "Generated for you · on-device AI";
+"library.curatedTemplates" = "%d curated templates · on-device";
+"Fallback" = "Fallback";
+"Ask for a pose…" = "Ask for a pose…";
+"Matching your query" = "Matching your query";
+"Perfect for Now" = "Perfect for Now";
+"Tailored to your query" = "Tailored to your query";
+"library.generatedAt" = "It's %@ · generated by on-device AI";
+"library.curatedAt" = "It's %@ · curated templates";
+"FAVORITES" = "FAVORITES";
+"RECENT" = "RECENT";
+"Your Favorites" = "Your Favorites";
+"Recent Poses" = "Recent Poses";
+"CATEGORIES" = "CATEGORIES";
+"Explore by Style" = "Explore by Style";
+"Tap to generate" = "Tap to generate";
+
+/* MARK: - Settings */
+
+"Settings" = "Settings";
+"SUBSCRIPTION" = "SUBSCRIPTION";
+"Camera" = "Camera";
+"Grid Overlay" = "Grid Overlay";
+"Pose Overlay Opacity" = "Pose Overlay Opacity";
+"Timer Default" = "Timer Default";
+"Haptic Feedback" = "Haptic Feedback";
+"AI Detection" = "AI Detection";
+"All AI processing happens on your device. No photos are ever uploaded." = "All AI processing happens on your device. No photos are ever uploaded.";
+"Show Environment Tags" = "Show Environment Tags";
+"Person Detection" = "Person Detection";
+"Notifications" = "Notifications";
+"Golden Hour Alerts" = "Golden Hour Alerts";
+"Notify me when light is perfect" = "Notify me when light is perfect";
+"About" = "About";
+"Rate FotoPose" = "Rate FotoPose";
+"Share with Friends" = "Share with Friends";
+"Privacy Policy" = "Privacy Policy";
+"Terms of Service" = "Terms of Service";
+"App Version" = "App Version";
+"Made with care · © 2026 FotoPose" = "Made with care · © 2026 FotoPose";
+
+"settings.percent" = "%d%%";
+"settings.seconds" = "%ds";
+"settings.sensitivity.low" = "Low · %d%%";
+"settings.sensitivity.medium" = "Medium · %d%%";
+"settings.sensitivity.high" = "High · %d%%";
+
+"Pro · Free Trial" = "Pro · Free Trial";
+"Pro · Yearly" = "Pro · Yearly";
+"Pro · Monthly" = "Pro · Monthly";
+"Pro · Weekly" = "Pro · Weekly";
+"Pro" = "Pro";
+"settings.trialEnds" = "Trial ends %@";
+"settings.renews" = "Renews %@";
+"Active" = "Active";
+"FotoPose Pro is active" = "FotoPose Pro is active";
+"Manage Subscription" = "Manage Subscription";
+
+"FREE PLAN" = "FREE PLAN";
+"You're on Free" = "You're on Free";
+"Daily poses" = "Daily poses";
+"settings.dailyUsage" = "%1$d / %2$d used";
+"Upgrade to Pro" = "Upgrade to Pro";
+
+/* MARK: - Tabs */
+
+/* (Camera, Library, Settings already listed above.) */
+
+/* MARK: - Environment / lighting / scene labels */
+
+"Scene" = "Scene";
+"Outdoor" = "Outdoor";
+"Park" = "Park";
+"City" = "City";
+"Beach" = "Beach";
+"Indoor" = "Indoor";
+"Studio" = "Studio";
+"Analyzing…" = "Analyzing…";
+
+"Golden Hour" = "Golden Hour";
+"Blue Hour" = "Blue Hour";
+"Soft Light" = "Soft Light";
+"Harsh Light" = "Harsh Light";
+"Night" = "Night";
+"Mixed Light" = "Mixed Light";
+
+"Sunrise" = "Sunrise";
+"Morning" = "Morning";
+"Midday" = "Midday";
+"Afternoon" = "Afternoon";
+"Dusk" = "Dusk";
+
+/* MARK: - Pose categories */
+
+"Classic Portrait" = "Classic Portrait";
+"Street Style" = "Street Style";
+"Editorial" = "Editorial";
+"Wedding" = "Wedding";
+"Sitting" = "Sitting";
+"Action" = "Action";
+"Full Body" = "Full Body";
+
+/* MARK: - Difficulty */
+
+"Low effort" = "Low effort";
+"Medium effort" = "Medium effort";
+"High effort" = "High effort";
+
+/* MARK: - Framing quality */
+
+"unknown" = "unknown";
+"poor" = "poor";
+"good" = "good";
+"excellent" = "excellent";
+
+/* MARK: - Detection chips */
+
+"detection.person.one" = "%d person detected";
+"detection.person.many" = "%d persons detected";
+"Person detected" = "Person detected";
+"detection.poseMatch" = "Pose match · %d%%";
+"detection.framing" = "Framing · %@";
+
+/* MARK: - Notifications */
+
+"notif.goldenHour.title" = "Golden hour in 15 min 🌅";
+"notif.goldenHour.body" = "The light is about to turn magical — open FotoPose when you're ready.";
+"notif.trial.title" = "Your FotoPose trial is ending";
+"notif.trial.body" = "Keep unlimited poses and AR guidance — manage your subscription in Settings.";
+"notif.weekly.title" = "Fresh poses this week ✨";
+"notif.weekly.body" = "New curated picks for the weekend. Open the Library to explore.";
+
+/* MARK: - Subscription errors */
+
+"sub.error.loadPlans" = "Couldn't load plans. Please try again.";
+"sub.error.unavailable" = "This plan is unavailable right now.";
+"sub.error.pending" = "Purchase is pending approval.";
+"sub.error.restoreFailed" = "Restore failed. Please try again.";

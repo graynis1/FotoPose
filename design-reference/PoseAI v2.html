@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PoseAI — All Screens v2</title>
+<style>
+  html,body{margin:0;padding:0;background:#05050A;color:#fff;
+    font-family:-apple-system,"SF Pro Display",system-ui,sans-serif;-webkit-font-smoothing:antialiased;}
+  *{box-sizing:border-box;}
+  .page{
+    padding:80px 60px 140px; min-height:100vh;
+    background:
+      radial-gradient(ellipse at 20% 0%, rgba(124,58,237,0.18), transparent 55%),
+      radial-gradient(ellipse at 80% 100%, rgba(236,72,153,0.12), transparent 55%),
+      #05050A;
+  }
+  .header{max-width:1320px;margin:0 auto 60px;display:flex;align-items:flex-end;justify-content:space-between;gap:40px;flex-wrap:wrap;}
+  .eyebrow{font-family:ui-monospace,"SF Mono",monospace;font-size:11px;font-weight:600;letter-spacing:2.4px;
+    color:rgba(255,255,255,0.45);text-transform:uppercase;}
+  h1{margin:6px 0 0;font-size:52px;font-weight:700;letter-spacing:-1.5px;
+    background:linear-gradient(135deg,#fff,rgba(255,255,255,0.5));
+    -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+  .sub{margin-top:10px;color:rgba(255,255,255,0.55);font-size:15px;letter-spacing:-0.2px;max-width:520px;line-height:1.5;}
+  .note{padding:10px 16px;border-radius:10px;background:rgba(255,255,255,0.04);
+    border:0.5px solid rgba(255,255,255,0.08);font-size:12px;color:rgba(255,255,255,0.6);letter-spacing:-0.1px;
+    font-family:ui-monospace,"SF Mono",monospace;max-width:280px;line-height:1.5;}
+  .grid{max-width:1320px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:60px 40px;}
+  .card{display:flex;flex-direction:column;align-items:center;gap:18px;}
+  .frame{width:393px;height:852px;border-radius:55px;overflow:hidden;
+    box-shadow:0 40px 90px rgba(0,0,0,0.55), 0 0 0 10px #1a1a1f, 0 0 0 12px #2a2a30;
+    background:#000;position:relative;}
+  iframe{width:393px;height:852px;border:0;display:block;background:#000;}
+  .label{font-size:14px;font-weight:600;color:#fff;letter-spacing:-0.2px;}
+  .meta{font-size:11.5px;color:rgba(255,255,255,0.45);letter-spacing:-0.1px;margin-top:2px;}
+  a.link{color:#F472B6;text-decoration:none;font-size:12px;font-weight:500;margin-left:8px;}
+  a.link:hover{color:#EC4899;}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="header">
+    <div>
+      <div class="eyebrow">PoseAI · v2 redesign</div>
+      <h1>All six screens,<br/>real photography.</h1>
+      <p class="sub">Every pose, scene, and background is a real Unsplash photograph. Native iOS chrome, SF Symbol iconography, SwiftUI-style controls.</p>
+    </div>
+    <div class="note">
+      6 screens · iPhone 15 Pro · 393×852pt<br/>
+      Dark #0A0A0F · Accent #7C3AED → #EC4899<br/>
+      Click a screen title to open at full size.
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="card"><div class="frame"><iframe src="PoseAI Onboarding v2.html" scrolling="no"></iframe></div>
+      <div><span class="label">Onboarding</span><a class="link" href="PoseAI Onboarding v2.html">Open →</a><div class="meta">3 steps · cinematic backgrounds</div></div></div>
+
+    <div class="card"><div class="frame"><iframe src="PoseAI Paywall v2.html"></iframe></div>
+      <div><span class="label">Paywall</span><a class="link" href="PoseAI Paywall v2.html">Open →</a><div class="meta">Hero portrait · plan cards · social proof</div></div></div>
+
+    <div class="card"><div class="frame"><iframe src="PoseAI Camera v2.html" scrolling="no"></iframe></div>
+      <div><span class="label">Camera</span><a class="link" href="PoseAI Camera v2.html">Open →</a><div class="meta">Live viewfinder · AR pose overlay</div></div></div>
+
+    <div class="card"><div class="frame"><iframe src="PoseAI Pose Detail v2.html" scrolling="no"></iframe></div>
+      <div><span class="label">Pose Detail</span><a class="link" href="PoseAI Pose Detail v2.html">Open →</a><div class="meta">Editorial photo · pro tips · match</div></div></div>
+
+    <div class="card"><div class="frame"><iframe src="PoseAI Library v2.html"></iframe></div>
+      <div><span class="label">Library</span><a class="link" href="PoseAI Library v2.html">Open →</a><div class="meta">Trending · Golden Hour · categories</div></div></div>
+
+    <div class="card"><div class="frame"><iframe src="PoseAI Settings v2.html"></iframe></div>
+      <div><span class="label">Settings</span><a class="link" href="PoseAI Settings v2.html">Open →</a><div class="meta">Native iOS list · SF Symbol tiles</div></div></div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,252 @@
+/* =========================================================
+   FotoPose — Turkish localization (tr)
+   ========================================================= */
+
+/* MARK: - Onboarding */
+
+"Skip" = "Atla";
+"Continue" = "Devam Et";
+"Get Started" = "Başla";
+
+"01 · Point" = "01 · Hedefle";
+"02 · Follow" = "02 · Takip Et";
+"03 · Capture" = "03 · Yakala";
+
+"Any scene.\nInstant pose ideas." = "Her sahneye\nanında poz fikri.";
+"Open the camera. Our on-device AI reads the light, location, and framing — and serves pose ideas that actually fit." = "Kamerayı aç. Cihaz içi AI ışığı, konumu ve kadrajı okur — gerçekten uyan poz önerileri sunar.";
+"A live guide,\ndrawn on you." = "Canlı bir rehber,\nüzerine çizildi.";
+"Real-time body tracking overlays the target pose on screen. Match it, and we capture automatically." = "Gerçek zamanlı vücut takibi hedef pozu ekrana yansıtır. Eşleştirdiğinde otomatik olarak çekeriz.";
+"Shots worth\nposting. Every time." = "Paylaşmaya değer\nkareler. Her seferinde.";
+"Built by portrait photographers. 200+ poses, coaching that adapts to your body, and zero cloud uploads — ever." = "Portre fotoğrafçıları tarafından geliştirildi. 200+ poz, vücuduna uyum sağlayan yönlendirme ve sıfır bulut yüklemesi — her zaman.";
+
+/* MARK: - Paywall */
+
+"Restore" = "Geri Yükle";
+"FOTOPOSE PRO" = "FOTOPOSE PRO";
+"240,000+ " = "240.000+ ";
+"photographers" = "fotoğrafçı";
+"4.9 · App Store" = "4,9 · App Store";
+
+"Shoot like\nyou mean it." = "Ciddi bir şekilde\nçekim yap.";
+"240+ editorial poses, live AR guidance, and coaching that adapts to your body. No ads. No cloud." = "240+ editöryal poz, canlı AR yönlendirmesi ve vücuduna uyum sağlayan koçluk. Reklam yok. Bulut yok.";
+
+"Unlimited AI pose suggestions" = "Sınırsız AI poz önerisi";
+"Live environment + body-aware recommendations, any lighting." = "Canlı ortam + vücut farkındalıklı öneriler, her aydınlatmada.";
+"Full pose library · 240+ poses" = "Tam poz kütüphanesi · 240+ poz";
+"Editorial, couple, wedding, street & group modes." = "Editöryal, çift, düğün, sokak ve grup modları.";
+"Live AR pose overlay" = "Canlı AR poz yerleşimi";
+"Match target poses in real time with body tracking." = "Vücut takibiyle hedef pozları gerçek zamanlı eşleştir.";
+"100% on-device privacy" = "%100 cihaz içi gizlilik";
+"Nothing leaves your phone. Not even anonymised." = "Hiçbir şey telefonundan çıkmaz. Anonimleştirilse bile.";
+
+"BEST VALUE" = "EN AVANTAJLI";
+"Best Value" = "En Avantajlı";
+"Start 1-Day Free Trial" = "1 Günlük Ücretsiz Denemeyi Başlat";
+
+"paywall.cta.subtitle.noTrial" = "Deneme sonrası %1$@/%2$@ · İstediğin zaman iptal et";
+"paywall.cta.subtitle.withTrial" = "Deneme sonrası %1$@/%2$@ · Ayarlar'dan istediğin zaman iptal et";
+
+"Terms" = "Koşullar";
+"Privacy" = "Gizlilik";
+
+"Weekly" = "Haftalık";
+"Monthly" = "Aylık";
+"Yearly" = "Yıllık";
+"1-day trial" = "1 günlük deneme";
+"After trial" = "Deneme sonrası";
+"Cancel anytime" = "İstediğin zaman iptal et";
+"Save 68%" = "%68 tasarruf";
+
+"unit.day" = "gün";
+"unit.week" = "hf";
+"unit.month" = "ay";
+"unit.year" = "yıl";
+
+/* MARK: - Camera coaching */
+
+"Point at a subject to begin" = "Başlamak için bir özneye yönel";
+"Perfect — hold it right there" = "Mükemmel — aynen öyle kal";
+"Almost there — match the guide" = "Az kaldı — rehberle eşleştir";
+"Step closer — frame your subject" = "Biraz yaklaş — özneyi kadraja al";
+"Tilt your chin slightly up — match the guide" = "Çeneni hafifçe yukarı kaldır — rehberle eşleştir";
+"Hold the pose — match the skeleton" = "Pozu koru — iskeletle eşleştir";
+"Looking for your subject…" = "Özne aranıyor…";
+
+"VIDEO" = "VİDEO";
+"PHOTO" = "FOTOĞRAF";
+"PORTRAIT" = "PORTRE";
+
+"Perfect!" = "Mükemmel!";
+
+"Camera access needed" = "Kamera izni gerekli";
+"Enable camera permission in Settings to start using FotoPose." = "FotoPose'u kullanmaya başlamak için Ayarlar'dan kamera iznini aç.";
+"Open Settings" = "Ayarları Aç";
+
+/* MARK: - Pose cards */
+
+"SUGGESTED POSES" = "ÖNERİLEN POZLAR";
+"See all" = "Tümünü gör";
+"Upgrade to iPhone 15 Pro for AI-powered suggestions" = "AI destekli öneriler için iPhone 15 Pro'ya yükselt";
+
+/* MARK: - Pose detail */
+
+"POSE DETAILS" = "POZ DETAYLARI";
+"Pro tips" = "Profesyonel ipuçları";
+"Pro Tips" = "Profesyonel İpuçları";
+"Similar poses" = "Benzer pozlar";
+"Curated template" = "Seçili şablon";
+"AI-generated" = "AI tarafından üretildi";
+"PRO" = "PRO";
+"Solo" = "Tek kişi";
+"Couple" = "Çift";
+"Group" = "Grup";
+"Your lighting is a match" = "Işığın bu poza uygun";
+"Lighting tip" = "Işık ipucu";
+"Flexible — works in most lighting" = "Esnek — çoğu aydınlatmada çalışır";
+"Use This Pose" = "Bu Pozu Kullan";
+
+"detail.matchFormat" = "%%%d uyum";
+"detail.lightingDetected" = "%1$@ algılandı · %%%2$d güven";
+"detail.lightingWorksBest" = "En iyi %@ ışığında çalışır";
+"detail.tipFallback" = "İpucu %d";
+
+/* MARK: - Library */
+
+"Library" = "Kütüphane";
+"Generated for you · on-device AI" = "Senin için üretildi · cihaz içi AI";
+"library.curatedTemplates" = "%d seçili şablon · cihaz içi";
+"Fallback" = "Yedek";
+"Ask for a pose…" = "Bir poz iste…";
+"Matching your query" = "Sorgunla eşleştiriliyor";
+"Perfect for Now" = "Şu An İçin Mükemmel";
+"Tailored to your query" = "Sorguna göre uyarlandı";
+"library.generatedAt" = "Saat %@ · cihaz içi AI tarafından üretildi";
+"library.curatedAt" = "Saat %@ · seçili şablonlar";
+"FAVORITES" = "FAVORİLER";
+"RECENT" = "SON KULLANILANLAR";
+"Your Favorites" = "Favorilerin";
+"Recent Poses" = "Son Kullanılanlar";
+"CATEGORIES" = "KATEGORİLER";
+"Explore by Style" = "Stile Göre Keşfet";
+"Tap to generate" = "Üretmek için dokun";
+
+/* MARK: - Settings */
+
+"Settings" = "Ayarlar";
+"SUBSCRIPTION" = "ABONELİK";
+"Camera" = "Kamera";
+"Grid Overlay" = "Izgara Yerleşimi";
+"Pose Overlay Opacity" = "Poz Yerleşim Opaklığı";
+"Timer Default" = "Varsayılan Zamanlayıcı";
+"Haptic Feedback" = "Dokunsal Geri Bildirim";
+"AI Detection" = "AI Algılama";
+"All AI processing happens on your device. No photos are ever uploaded." = "Tüm AI işlemleri cihazınızda gerçekleşir. Fotoğraflarınız asla yüklenmez.";
+"Show Environment Tags" = "Ortam Etiketlerini Göster";
+"Person Detection" = "Kişi Algılama";
+"Notifications" = "Bildirimler";
+"Golden Hour Alerts" = "Altın Saat Bildirimleri";
+"Notify me when light is perfect" = "Işık mükemmel olduğunda beni uyar";
+"About" = "Hakkında";
+"Rate FotoPose" = "FotoPose'u Değerlendir";
+"Share with Friends" = "Arkadaşlarınla Paylaş";
+"Privacy Policy" = "Gizlilik Politikası";
+"Terms of Service" = "Kullanım Koşulları";
+"App Version" = "Uygulama Sürümü";
+"Made with care · © 2026 FotoPose" = "Özenle yapıldı · © 2026 FotoPose";
+
+"settings.percent" = "%%%d";
+"settings.seconds" = "%dsn";
+"settings.sensitivity.low" = "Düşük · %%%d";
+"settings.sensitivity.medium" = "Orta · %%%d";
+"settings.sensitivity.high" = "Yüksek · %%%d";
+
+"Pro · Free Trial" = "Pro · Ücretsiz Deneme";
+"Pro · Yearly" = "Pro · Yıllık";
+"Pro · Monthly" = "Pro · Aylık";
+"Pro · Weekly" = "Pro · Haftalık";
+"Pro" = "Pro";
+"settings.trialEnds" = "Deneme %@ tarihinde bitiyor";
+"settings.renews" = "%@ tarihinde yenilenir";
+"Active" = "Etkin";
+"FotoPose Pro is active" = "FotoPose Pro etkin";
+"Manage Subscription" = "Aboneliği Yönet";
+
+"FREE PLAN" = "ÜCRETSİZ PLAN";
+"You're on Free" = "Ücretsiz plandasın";
+"Daily poses" = "Günlük pozlar";
+"settings.dailyUsage" = "%1$d / %2$d kullanıldı";
+"Upgrade to Pro" = "Pro'ya Yükselt";
+
+/* MARK: - Tabs */
+/* "Camera", "Library", "Settings" already translated above. */
+
+/* MARK: - Environment / lighting / scene labels */
+
+"Scene" = "Sahne";
+"Outdoor" = "Dış Mekan";
+"Park" = "Park";
+"City" = "Şehir";
+"Beach" = "Sahil";
+"Indoor" = "İç Mekan";
+"Studio" = "Stüdyo";
+"Analyzing…" = "Analiz ediliyor…";
+
+"Golden Hour" = "Altın Saat";
+"Blue Hour" = "Mavi Saat";
+"Soft Light" = "Yumuşak Işık";
+"Harsh Light" = "Sert Işık";
+"Night" = "Gece";
+"Mixed Light" = "Karışık Işık";
+
+"Sunrise" = "Gün Doğumu";
+"Morning" = "Sabah";
+"Midday" = "Öğle";
+"Afternoon" = "Öğleden Sonra";
+"Dusk" = "Alacakaranlık";
+
+/* MARK: - Pose categories */
+
+"Classic Portrait" = "Klasik Portre";
+"Street Style" = "Sokak Stili";
+"Editorial" = "Editöryal";
+"Wedding" = "Düğün";
+"Sitting" = "Oturma";
+"Action" = "Aksiyon";
+"Full Body" = "Tüm Vücut";
+
+/* MARK: - Difficulty */
+
+"Low effort" = "Düşük efor";
+"Medium effort" = "Orta efor";
+"High effort" = "Yüksek efor";
+
+/* MARK: - Framing quality */
+
+"unknown" = "bilinmiyor";
+"poor" = "zayıf";
+"good" = "iyi";
+"excellent" = "mükemmel";
+
+/* MARK: - Detection chips */
+
+"detection.person.one" = "%d kişi algılandı";
+"detection.person.many" = "%d kişi algılandı";
+"Person detected" = "Kişi algılandı";
+"detection.poseMatch" = "Poz uyumu · %%%d";
+"detection.framing" = "Kadraj · %@";
+
+/* MARK: - Notifications */
+
+"notif.goldenHour.title" = "15 dakikaya altın saat 🌅";
+"notif.goldenHour.body" = "Işık büyülü hâle gelmek üzere — hazır olduğunda FotoPose'u aç.";
+"notif.trial.title" = "FotoPose denemen sona eriyor";
+"notif.trial.body" = "Sınırsız poz ve AR yönlendirmesiyle devam et — aboneliğini Ayarlar'dan yönet.";
+"notif.weekly.title" = "Bu haftanın taze pozları ✨";
+"notif.weekly.body" = "Hafta sonu için özenle seçilmiş yeni pozlar. Keşfetmek için Kütüphane'yi aç.";
+
+/* MARK: - Subscription errors */
+
+"sub.error.loadPlans" = "Planlar yüklenemedi. Lütfen tekrar dene.";
+"sub.error.unavailable" = "Bu plan şu anda kullanılamıyor.";
+"sub.error.pending" = "Satın alma onay bekliyor.";
+"sub.error.restoreFailed" = "Geri yükleme başarısız oldu. Lütfen tekrar dene.";

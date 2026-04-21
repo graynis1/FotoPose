@@ -1,0 +1,4 @@
+"CFBundleDisplayName" = "FotoPose";
+"NSCameraUsageDescription" = "FotoPose uses your camera to analyze lighting and suggest poses in real-time. No photos are ever uploaded.";
+"NSLocationWhenInUseUsageDescription" = "FotoPose uses your location to calculate golden hour timing for better photo suggestions.";
+"NSPhotoLibraryAddUsageDescription" = "FotoPose saves the photos you capture to your photo library.";

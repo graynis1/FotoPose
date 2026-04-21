@@ -1,0 +1,4 @@
+• Full Turkish localization — the entire app, AI-generated pose names, and notifications.
+• Smarter on-device AI prompts that respect your system language.
+• Polish passes across Paywall, Library, Pose Detail, and Settings.
+• Stability improvements around golden-hour alerts and permission flows.

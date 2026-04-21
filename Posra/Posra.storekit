@@ -1,0 +1,101 @@
+{
+  "identifier" : "Posra-Local",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_billingIssuesEnabled" : false,
+    "_developerModeEnabled" : true,
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_timeRate" : 0
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "2E91C9B4",
+      "localizations" : [],
+      "name" : "FotoPose Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "79.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "A001",
+          "introductoryOffer" : {
+            "internalID" : "I001",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1D"
+          },
+          "localizations" : [
+            {
+              "description" : "FotoPose Pro weekly access with 1-day free trial.",
+              "displayName" : "FotoPose Pro Weekly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.posra.weekly",
+          "recurringSubscriptionPeriod" : "P1W",
+          "referenceName" : "Weekly",
+          "subscriptionGroupID" : "2E91C9B4",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "279.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "A002",
+          "introductoryOffer" : {
+            "internalID" : "I002",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1D"
+          },
+          "localizations" : [
+            {
+              "description" : "FotoPose Pro monthly access with 1-day free trial.",
+              "displayName" : "FotoPose Pro Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.posra.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Monthly",
+          "subscriptionGroupID" : "2E91C9B4",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "999.99",
+          "familyShareable" : false,
+          "groupNumber" : 3,
+          "internalID" : "A003",
+          "introductoryOffer" : {
+            "internalID" : "I003",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1D"
+          },
+          "localizations" : [
+            {
+              "description" : "FotoPose Pro yearly access with 1-day free trial.",
+              "displayName" : "FotoPose Pro Yearly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.posra.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Yearly",
+          "subscriptionGroupID" : "2E91C9B4",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
