@@ -24,6 +24,24 @@ struct RootView: View {
         .fullScreenCover(isPresented: $appState.isPaywallPresented) {
             PaywallView(isRootPaywall: false)
         }
+        .task {
+            await subscriptionService.bootstrap()
+            await scheduleNotifications()
+        }
+        .onReceive(subscriptionService.$status) { newValue in
+            if case .inTrial(let expires) = newValue {
+                Task { await NotificationService.shared.scheduleTrialEndingNotification(trialExpires: expires) }
+            }
+        }
+    }
+
+    @MainActor
+    private func scheduleNotifications() async {
+        let goldenHourEnabled = UserDefaults.standard.object(forKey: "posra.settings.goldenHourAlerts") as? Bool ?? true
+        if goldenHourEnabled {
+            await NotificationService.shared.scheduleGoldenHourAlerts()
+        }
+        await NotificationService.shared.scheduleWeeklyReminder()
     }
 }
 
