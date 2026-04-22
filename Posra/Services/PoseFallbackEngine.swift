@@ -344,8 +344,8 @@ struct PoseFallbackEngine {
                  (0.40, 0.78), (0.60, 0.76),
                  (0.36, 0.96), (0.64, 0.94)
              ),
-             isPro: true,
-             lighting: [.goldenHour, .softLight], scene: [.outdoor, .park, .beach]),
+             lighting: [.goldenHour, .softLight], scene: [.outdoor, .park, .beach],
+             isPro: true),
 
         pose("fb-crossed-arms",
              name: "Crossed Arms, Soft Smile",
@@ -405,8 +405,8 @@ struct PoseFallbackEngine {
                  (0.48, 0.78), (0.56, 0.78),
                  (0.48, 0.96), (0.56, 0.96)
              ),
-             isPro: true,
-             lighting: [.studio, .softLight], scene: [.studio, .indoor]),
+             lighting: [.studio, .softLight], scene: [.studio, .indoor],
+             isPro: true),
 
         pose("fb-kneel-forward",
              name: "Kneel and Lean In",
@@ -568,8 +568,9 @@ struct PoseFallbackEngine {
                  (0.34, 0.76), (0.54, 0.74),
                  (0.34, 0.92), (0.58, 0.92)
              ),
-             isPro: true, personCount: 2,
-             lighting: [.goldenHour, .softLight], scene: [.outdoor, .indoor]),
+             personCount: 2,
+             lighting: [.goldenHour, .softLight], scene: [.outdoor, .indoor],
+             isPro: true),
 
         pose("fb-wedding-veil",
              name: "Veil Floating Away",
@@ -589,8 +590,8 @@ struct PoseFallbackEngine {
                  (0.44, 0.78), (0.56, 0.78),
                  (0.44, 0.96), (0.56, 0.96)
              ),
-             isPro: true,
-             lighting: [.goldenHour], scene: [.outdoor, .beach]),
+             lighting: [.goldenHour], scene: [.outdoor, .beach],
+             isPro: true),
 
         // --- Group ---
         pose("fb-group-trio-step",
@@ -753,7 +754,7 @@ struct PoseFallbackEngine {
                  (0.44, 0.78), (0.56, 0.78),
                  (0.44, 0.96), (0.56, 0.96)
              ),
-             isPro: true,
-             lighting: [.harsh, .studio, .night], scene: [.studio, .city])
+             lighting: [.harsh, .studio, .night], scene: [.studio, .city],
+             isPro: true)
     ]
 }

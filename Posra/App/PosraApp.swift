@@ -1,3 +1,4 @@
+import Combine
 import SwiftUI
 
 @main
@@ -19,7 +20,7 @@ struct PosraApp: App {
                     await subscriptionService.bootstrap()
                     await scheduleNotifications()
                 }
-                .onChange(of: subscriptionService.status) { newValue in
+                .onReceive(subscriptionService.$status) { newValue in
                     if case .inTrial(let expires) = newValue {
                         Task { await NotificationService.shared.scheduleTrialEndingNotification(trialExpires: expires) }
                     }

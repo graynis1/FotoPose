@@ -32,7 +32,7 @@ struct PoseDetailSheet: View {
                         .padding(.top, 20)
                     VStack(spacing: 14) {
                         ForEach(Array(tips.enumerated()), id: \.offset) { _, tip in
-                            TipRow(icon: tip.icon, title: tip.title, body: tip.body)
+                            TipRow(icon: tip.icon, title: tip.title, text: tip.body)
                         }
                     }
                     .padding(.top, 12)
@@ -439,7 +439,7 @@ private struct DetailChip: View {
 private struct TipRow: View {
     let icon: String
     let title: String
-    let body: String
+    let text: String
 
     var body: some View {
         HStack(alignment: .top, spacing: 12) {
@@ -460,7 +460,7 @@ private struct TipRow: View {
                     .font(.system(size: 13.5, weight: .semibold))
                     .tracking(-0.15)
                     .foregroundStyle(.white)
-                Text(LocalizedStringKey(body))
+                Text(LocalizedStringKey(text))
                     .font(.system(size: 12.5))
                     .tracking(-0.1)
                     .foregroundStyle(Color.white.opacity(0.6))
