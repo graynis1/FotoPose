@@ -248,16 +248,17 @@ struct RemoteImage: View {
 }
 
 // Location permission one-shot
+@MainActor
 final class LocationPermissionRequester: NSObject, CLLocationManagerDelegate {
     static let shared = LocationPermissionRequester()
     private let manager = CLLocationManager()
 
-    override init() {
+    override nonisolated init() {
         super.init()
-        manager.delegate = self
     }
 
     func request() {
+        manager.delegate = self
         manager.requestWhenInUseAuthorization()
     }
 }
