@@ -75,7 +75,7 @@ struct LibraryView: View {
             }
         }
         .onAppear { model.loadPerfectForNow() }
-        .onChange(of: query) { newQuery in
+        .onChange(of: query) { (newQuery: String) in
             model.searchDebounced(newQuery)
         }
         .sheet(item: $detailPose) { pose in

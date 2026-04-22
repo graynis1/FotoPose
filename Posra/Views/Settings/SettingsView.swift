@@ -156,8 +156,8 @@ struct SettingsView: View {
                 isLast: true
             ) {
                 IOSToggle(isOn: $goldenHourAlerts)
-                    .onChange(of: goldenHourAlerts) { enabled in
-                        Task {
+                    .onChange(of: goldenHourAlerts) { (enabled: Bool) in
+                        Task { @MainActor in
                             if enabled {
                                 await NotificationService.shared.requestAuthorizationIfNeeded()
                                 await NotificationService.shared.scheduleGoldenHourAlerts()

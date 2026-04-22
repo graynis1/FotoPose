@@ -34,7 +34,7 @@ struct PoseOverlayView: View {
                 }
             }
             .onAppear { onAlignmentChange(alignment) }
-            .onChange(of: alignmentBucket(alignment)) { _ in
+            .onChange(of: alignmentBucket(alignment)) { (_: Int) in
                 onAlignmentChange(alignment)
             }
         }
