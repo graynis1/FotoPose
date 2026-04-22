@@ -2,6 +2,7 @@ import Combine
 import SwiftUI
 
 @main
+@MainActor
 struct PosraApp: App {
     @StateObject private var appState = AppState()
     @StateObject private var subscriptionService = SubscriptionService()
