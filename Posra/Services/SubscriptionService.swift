@@ -11,6 +11,8 @@ final class SubscriptionService: ObservableObject {
     private let productIDs: Set<String> = Set(SubscriptionPlan.allCases.map(\.rawValue))
     private var updateListener: Task<Void, Never>? = nil
 
+    nonisolated init() {}
+
     deinit {
         updateListener?.cancel()
     }

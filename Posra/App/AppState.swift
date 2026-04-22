@@ -19,8 +19,8 @@ final class AppState: ObservableObject {
 
     private let onboardingKey = "posra.onboarding.completed.v1"
 
-    init() {
-        let completed = UserDefaults.standard.bool(forKey: onboardingKey)
+    nonisolated init() {
+        let completed = UserDefaults.standard.bool(forKey: "posra.onboarding.completed.v1")
         self.route = completed ? .main : .onboarding
     }
 
