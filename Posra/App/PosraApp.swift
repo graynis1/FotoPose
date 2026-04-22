@@ -2,12 +2,8 @@ import SwiftUI
 
 @main
 struct PosraApp: App {
-    @StateObject private var appState = AppState()
-    @StateObject private var subscriptionService = SubscriptionService()
-
-    init() {
-        configureAppearance()
-    }
+    @State private var appState = AppState()
+    @State private var subscriptionService = SubscriptionService()
 
     var body: some Scene {
         WindowGroup {
@@ -15,6 +11,9 @@ struct PosraApp: App {
                 .environmentObject(appState)
                 .environmentObject(subscriptionService)
                 .preferredColorScheme(.dark)
+                .onAppear {
+                    configureAppearance()
+                }
         }
     }
 
